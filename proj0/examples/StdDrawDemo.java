@@ -21,6 +21,7 @@ public class StdDrawDemo {
 		  * in the standard drawing window. */
 		StdDraw.enableDoubleBuffering();
 
+		StdDraw.setCanvasSize(800, 800);
 		/** Sets up the universe so it goes from
 		  * -100, -100 up to 100, 100 */
 		StdDraw.setScale(-100, 100);
