@@ -44,7 +44,7 @@ public class NBody {
 
         double tt = 0;
         int N = bodies.length;
-
+        StdAudio.play("audio/2001.mid");
         while (tt <= T) {
             double[] xForces = new double[N];
             double[] yForces = new double[N];
