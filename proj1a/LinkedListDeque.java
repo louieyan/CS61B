@@ -1,4 +1,5 @@
 public class LinkedListDeque<T> {
+
     public class LinkNode {
         public LinkNode prev;
         public T item;
@@ -82,12 +83,15 @@ public class LinkedListDeque<T> {
      * Once all the items have been printed, print out a new line.
      */
     public void printDeque() {
-        LinkNode p = sentinel;
+        for (LinkNode p = sentinel.next; p.next != sentinel; p = p.next) {
+			System.out.print(p.item + " ");
+		}
+        /**LinkNode p = sentinel;
         while (p.next != sentinel) {
             System.out.print(p.next.item);
             System.out.print(" ");
             p = p.next;
-        }
+        }*/
         System.out.printf("%n");
     }
 
