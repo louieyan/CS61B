@@ -10,7 +10,7 @@ package huglife;
  * movement.
  * 2. Action(ActionType at, Direction d): Used for creating actions that
  * involve relative movement.
- * 3. Action(ActionType at, int x, int y): Used for creation actions that
+ * 3. Action(ActionType at, int x, int y): Used for creating actions that
  * involve absolute movement. NOT NECESSARY FOR THIS LAB, but included in
  * case you want to do anything fancy.
  * <p>
