@@ -12,6 +12,8 @@ public class BubbleGridTest {
         int[] expected = {2};
 
         validate(grid, darts, expected);
+
+
     }
 
     private void validate(int[][] grid, int[][] darts, int[] expected) {
